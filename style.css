@@ -1,0 +1,76 @@
+.contact li a {
+	color: #000;
+}
+
+.contact li {
+	list-style: none;
+	display: inline;
+	padding: 10px;
+	margin-right: 20px;
+}
+
+.contact li i {
+	font-size: 30px;
+}
+
+body {
+	background-color: rgb(230, 230, 230);
+	color: rgb(30, 30, 30); 
+}
+
+h1, h2 {
+	font-family: 'Handlee', cursive;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+p, a, h4, h3, ol, li, ul li {
+	font-family: 'Arima Madurai', cursive;
+}
+
+.projects-header {
+	text-align: center;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+	background-color: rgb(230, 230, 230);
+}
+
+a:hover {
+	color: grey;
+}
+
+.card-white {
+	background: #fff;  /* white background */
+	padding: 40px;     /* internal space */
+	border-radius: 4px;   /* small radius */
+	box-shadow: 0 10px 30px rgba(0,0,0,0.1);   /* stripe shadow */
+	width: 500px;     /* fixed width */
+	text-align: center;
+	margin: 20px auto;   /* set automatic margins for left & right */
+}
+
+.image-circle {
+	border-radius: 50%;
+}
+
+.text-design {
+	text-align: left;
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px; 
+	}
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
